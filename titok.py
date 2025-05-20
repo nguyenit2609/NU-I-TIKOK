@@ -186,8 +186,6 @@ def swipe_and_delay():
 while True:
     try:
         solan += 1
-        x = 1 / 0
-
         if solan % 30 == 0:
             print(f" {CYAN}→ Đổi acc ")
             restart_app()
